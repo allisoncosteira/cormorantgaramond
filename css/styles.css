@@ -1,0 +1,332 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300 px;
+  font-style: normal;
+}
+
+.rectangle {
+    height: 60px;
+   width: 1435px;
+   background-color: green;
+   margin: 0 20px 0 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.intro {
+    font-size: 20px;
+    
+}
+
+.circle {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: 0px;
+   left: -75px;
+}
+
+.circle-2 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -150px;
+   right: -50px;
+}
+
+.circle-3 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -300px;
+   right: -180px;
+}
+
+.circle-4 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -450px;
+   right: -320px;
+}
+
+.circle-5 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -600px;
+   right: -460px;
+}
+
+.circle-6 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -750px;
+   right: -600px;
+}
+
+.circle-7 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -900px;
+   right: -740px;
+}
+
+.circle-8 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -1050px;
+   right: -880px;
+}
+
+.circle-9 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -1200px;
+   right: -1020px;
+}
+
+.circle-10 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -1350px;
+   right: -1160px;
+}
+
+.circle-11 {
+    height: 150px;
+   width: 150px;
+   background-color: green;
+   border-radius: 50%;
+   position: relative;
+   top: -1500px;
+   right: -1300px;
+}
+
+.letters {
+    font-size: 30px;
+}
+
+
+.fonts {
+    font-size: 30px;
+}
+
+.light {
+    font-weight: lighter, 300;
+}
+
+.light-italic {
+    font-weight: lighter, 300;
+    font-style: italic;
+}
+
+.regular {
+    font-weight: 400;
+    
+}
+
+.regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.medium-italic {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.semibold-italic {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bold-italic {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.menu-1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.sizes-and-colors {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.recipe {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.alphabet-and-puntuation {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cookies {
+    font-size: 25px;
+}
+
+.ingredients {
+    font-size: 25px;
+}
+
+.menu-2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.bakery {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    transform: rotate(5.67deg);
+    color: green;
+}
+
+.muffins {
+    text-align: right;
+    font-size: 100px;
+    font-weight: 300;
+    transform: rotate(-10.35deg);
+    color: pink
+}
+
+.donuts {
+    text-align: left;
+    font-size: 60px;
+    font-weight: 700;
+     transform: rotate(5.67deg);
+     color: brown
+}
+
+.cakes {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    transform: rotate(-13.4deg);
+    color: purple
+}
+
+.breads {
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.menu-3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.moving {
+    font-size: 50px;
+    animation: slide 3s infinite linear;
+}
+
+@keyframes slide {
+0% {transform: translateX(0);}
+100% {transform: translateX(1000px);}
+}
+
+.rotate {
+    font-size: 50px;
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+.jump {
+    position: relative;
+    font-display: flex;
+    justify-content: center;
+}
+
+.jump span {
+   position: relative;
+   display: inline-block;
+   color: var(--myBlue);
+   font-size: 100pt;
+   animation: subjump 2s ease-in-out infinite;
+   animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes subjump {
+    0% {
+        transform: translateY(0px);
+        transform: scale(-1, 1);
+    }
+
+    20% {
+        transform: translateY(-20px);
+    }
+
+    40%,
+    100% {
+        transform: translateY(0px);
+    }
+}
